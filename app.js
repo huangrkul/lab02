@@ -26,7 +26,7 @@ if(guess == '26'){
        console.log('resistance is futile')
    }
 
-   var fear = prompt('Am i afraid of snakes?')
+   var fear = prompt('Am I afraid of snakes?')
    fear=fear.toLowerCase();
    if(fear==="yes" || fear==="y"){
        alert('Yick, that is correct');
@@ -52,17 +52,19 @@ if(guess == '26'){
    if(bat==="69"){
 
     alert('Woahhhhh, Exellent!');
-    console.log('*air guitar sounds*');
+    console.log('*party on dude*');
    }else if(bat < 69){
        alert('Bogus your too low, try again');
        console.log('alaska');
        rep++;
    
-    }else(bat > 69){ 
+    }else if(bat > 69);{ 
         alert('Totally blew it, you went to far');
         console.log('non-triumphant');
         rep++;
     }
 
    }
-    
+    if (rep===4){
+    alert('You failed dude');
+    console.log('millitary school');}
