@@ -49,15 +49,16 @@ if(guess == '26'){
    var rep = 0; 
    while(rep < 4){
        var bat = parseInt(prompt('Since your from the future, what number am I thinking?'));
-   if(bat==="69"){
+   if(bat===69){
 
     alert('Woahhhhh, Exellent!');
-    console.log('*party on dude*');
+    console.log('*party on dude*'); 
+    break;
    }else if(bat < 69){
        alert('Bogus your too low, try again');
        console.log('alaska');
        rep++;
-   
+   break;
     }else if(bat > 69);{ 
         alert('Totally blew it, you went to far');
         console.log('non-triumphant');
@@ -68,3 +69,20 @@ if(guess == '26'){
     if (rep===4){
     alert('You failed dude');
     console.log('millitary school');}
+
+    var loop=0;
+    var multiple=['american', 'australian'];
+    var nation=prompt('I am a citizen of two nations, can you guess which?').toLowerCase;
+    while (loop<5){
+        for(var i=0; i<multiple.length;i++){
+            if(nation===multiple[i]){
+                alert('Cricky ya got me mate!');
+                console.log('excited gibbering');
+                break;
+            }else{
+                nation=prompt('Nope, give it another go');
+                loop++
+            }
+        }
+    }
+    if (loop===5){alert('cor your outta guesses mate, I am an ' + multiple);}
