@@ -25,3 +25,44 @@ if(guess == '26'){
        alert('I am sorry ' + name + ' But thats no longer an option')
        console.log('resistance is futile')
    }
+
+   var fear = prompt('Am i afraid of snakes?')
+   fear=fear.toLowerCase();
+   if(fear==="yes" || fear==="y"){
+       alert('Yick, that is correct');
+       console.log('This is a sad day for me and therefore the world');
+   } else{
+       alert('wrong, I hate snake....I HATE EM!!!');
+       console.log('They should all be destroyed');
+   }
+
+   var reddit = prompt('When does the narwhal bacon?');
+   reddit=reddit.toLowerCase();
+   if(reddit==="midnight"){
+       alert('You have been on the internet a long time I see');
+       console.log('rage face of victory');
+   } else{
+       alert('Nevermind')
+       console.log('2011 was a long time ago I guess')
+   }
+
+   var rep = 0; 
+   while(rep < 4){
+       var bat = parseInt(prompt('Since your from the future, what number am I thinking?'));
+   if(bat==="69"){
+
+    alert('Woahhhhh, Exellent!');
+    console.log('*air guitar sounds*');
+   }else if(bat < 69){
+       alert('Bogus your too low, try again');
+       console.log('alaska');
+       rep++;
+   
+    }else(bat > 69){ 
+        alert('Totally blew it, you went to far');
+        console.log('non-triumphant');
+        rep++;
+    }
+
+   }
+    
